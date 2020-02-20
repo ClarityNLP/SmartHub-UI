@@ -1,0 +1,23 @@
+@import "util/reset";
+@import "util/normalize";
+
+// Set your brand colors
+$orange: #FF5722;
+
+$primary: $orange;
+$link: $orange;
+$warning: #ffeb3b;
+
+$menu-item-color: #6d6d6d;
+$progress-value-background-color: #fff;
+$progress-bar-background-color: #bcabcf;
+
+// @import "../../node_modules/bulma/bulma.sass";
+@import '../../node_modules/antd/dist/antd.css';
+
+//COMPONENTS
+@import "components/navbar";
+@import "components/activity-table";
+@import "components/job-table";
+
+@import "main";
